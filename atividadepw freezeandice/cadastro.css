@@ -31,7 +31,7 @@ background-color:#ffffff;
 .box{
  
    display: flex;
-   width: 1500px;
+   width: 1200px;
 }
 .img-box{
    background-color:rgb(64, 2, 85);
@@ -75,6 +75,7 @@ background-color:#ffffff;
    font-weight: bold;
    display: block;
    margin-bottom: 5px;
+   font-family: "Poppins", sans-serif;
 }
 .form .input-group input{
    width: 90%;
@@ -87,6 +88,7 @@ background-color:#ffffff;
    font-size: 15px;
    color: #616161;
    transition: all 0.4s ease;
+   font-family: "Poppins", sans-serif;
 }
 .form .input-group input:focus{
    border-color: #004AAD;
@@ -102,6 +104,8 @@ background-color:#ffffff;
    color: white;
    cursor: pointer;
    font-size: 16px;
+   font-family: "Poppins", sans-serif;
+   font-weight:500;
 }
 
 .form .input-group button:hover{
