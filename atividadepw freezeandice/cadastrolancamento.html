@@ -18,26 +18,18 @@
             <h2>Cadastro de Lançamento</h2>
     
             <div class="form">
-            <form id="cadastroForm" onsubmit="return salvarCadastro()">
-                <div class="input-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" placeholder="Digite o nome " required>
-                </div>
+                <form action="insert_lancamento.php" method="post">
                 <div class="input-group">
                     <label for="nome">Descrição</label>
-                    <input type="text" id="nome" placeholder="Digite a descrição " required>
+                    <input type="text" id="descricao" placeholder="Digite a descrição " required>
                 </div>
                 <div class="input-group">
                     <label for="valor">Valor</label>
-                    <input type="number" id="valor" placeholder="Digite o valor" required>
+                    <input type="number" id="valor" placeholder="Digite o tipo" required>
                 </div>
                 <div class="input-group">
                     <label for="tipo">Tipo</label>
-                    <select name="select">
-                        <option value="valor1">Valor 1</option>
-                        <option value="valor2">Valor 2</option>
-                        <option value="valor3">Valor 3</option>
-                      </select>
+                    <input type="text" id="tipo" placeholder="Digite o tipo" required>
                 </div>
 
                 <div class="input-group">
