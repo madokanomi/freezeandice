@@ -2,11 +2,11 @@
  
 $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
-$dt_nasc = $_POST['data_nascimento'];
+$dt_nasc = $_POST['dt_nasc'];
 $cargo = $_POST['cargo'];
-$salario = $_POST['nr_salario'];
-$dt_adm = $_POST['dt_admissao'];
-$senha = $_POST['senha'];
+$salario = $_POST['salario'];
+$dt_adm = $_POST['dt_adm'];
+$senha = $_POST['senha'];  
  
 include 'conexao.php';
  
@@ -18,5 +18,5 @@ $test = $conexao->query($insert_fun);
 if($test){
    echo "<script>alert('inserido com sucesso'); history.back() </script>";
 }
- 
+
 ?>

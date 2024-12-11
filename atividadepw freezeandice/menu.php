@@ -36,7 +36,7 @@
                 </a>
                 </div>
                 <div class="input-group">
-                    <a href="cadastrofuncionario.html">
+                    <a href="cadastrofornecedor.html">
                     <button type="submit">Cadastro de Fornecedores</button>
                 </a>
                 </div>

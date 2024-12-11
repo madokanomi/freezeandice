@@ -11,7 +11,7 @@
     
 </head>
 <body style="background-image:url('fundo.png');">
-    <a href="menu.html">
+    <a href="menu.php">
         <img class="imgdaora" src="frezee and ice.png" ></a>
     <div class="box">
         
@@ -22,20 +22,20 @@
                 <form action="insert_lancamento.php" method="post">
                 <div class="input-group">
                     <label for="nome">Descrição</label>
-                    <input type="text" id="descricao" placeholder="Digite a descrição " required>
+                    <input type="text" id="descricao" name="descricao" placeholder="Digite a descrição " required>
                 </div>
                 <div class="input-group">
                     <label for="valor">Valor</label>
-                    <input type="number" id="valor" placeholder="Digite o tipo" required>
+                    <input type="number" id="valor" name="valor" placeholder="Digite o tipo" required>
                 </div>
                 <div class="input-group">
                     <label for="tipo">Tipo</label>
-                    <input type="text" id="tipo" placeholder="Digite o tipo" required>
+                    <input type="text" id="tipo" name="tipo" placeholder="Digite o tipo" required>
                 </div>
 
                 <div class="input-group">
                     <label for="lancamento">Data de Lançamento</label>
-                    <input type="date" id="lancamento" placeholder="Data de Lançamento" style="width:20%;" required>
+                    <input type="date" id="lancamento" name="dt_lanc" placeholder="Data de Lançamento" style="width:20%;" required>
                 </div>
 <center>
                 <div class="input-group">
